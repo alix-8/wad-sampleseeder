@@ -19,6 +19,7 @@ class StudentFactory extends Factory
     {
         return [
             'uuid' => Str::uuid(),
+            'student_id' => $this->faker->unique()->numerify('S-####'),
             'first_name' => $this->faker->firstName(),
             'last_name' => $this->faker->lastName(),
             'email' => $this->faker->unique()->safeEmail(),
