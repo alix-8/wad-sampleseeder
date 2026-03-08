@@ -29,7 +29,7 @@ This project is created to practice:
 ##  How to Run
 1. **Clone the Repo**
    ```bash
-   git clone GitHub Link
+   git clone [https://github.com/alix-8/wad-sampleseeder.git](https://github.com/alix-8/wad-sampleseeder.git)
    
 2. **Install dependencies**
    ```bash
